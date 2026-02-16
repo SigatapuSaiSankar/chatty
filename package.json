@@ -1,0 +1,21 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backEnd && npm install --prefix frontEnd && npm run build --prefix frontEnd",
+    "start": "npm run start --prefix backEnd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigatapuSaiSankar/chatty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SigatapuSaiSankar/chatty/issues"
+  },
+  "homepage": "https://github.com/SigatapuSaiSankar/chatty#readme",
+  "description": ""
+}
